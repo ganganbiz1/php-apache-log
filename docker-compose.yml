@@ -2,7 +2,7 @@ version: '3.8'
 services:
   app:
     image: php:5.4.32-apache
-    container_name: php-cont
+    container_name: php-log-test
     volumes:
       - "./html/:/var/www/html"
     ports:
