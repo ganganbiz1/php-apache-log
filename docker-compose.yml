@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  app:
+    image: php:5.4.32-apache
+    container_name: php-cont
+    volumes:
+      - "./html/:/var/www/html"
+    ports:
+      - 80:80
+
